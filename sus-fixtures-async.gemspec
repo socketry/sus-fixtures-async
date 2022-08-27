@@ -24,5 +24,5 @@ Gem::Specification.new do |spec|
 	spec.required_ruby_version = ">= 2.7.0"
 	
 	spec.add_dependency "async"
-	spec.add_dependency "sus", "~> 0.10.1"
+	spec.add_dependency "sus", "~> 0.10"
 end
