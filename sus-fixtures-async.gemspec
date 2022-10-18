@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
 	spec.cert_chain  = ['release.cert']
 	spec.signing_key = File.expand_path('~/.gem/release.pem')
 	
-	spec.homepage = "https://github.com/ioquatix/sus-fixtures-async"
+	spec.homepage = "https://github.com/socketry/sus-fixtures-async"
 	
 	spec.metadata = {
 		"funding_uri" => "https://github.com/sponsors/ioquatix/",
