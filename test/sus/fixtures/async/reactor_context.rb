@@ -14,7 +14,7 @@ describe Sus::Fixtures::Async::ReactorContext do
 		end
 		
 		it "has a default timeout" do
-			expect(timeout).to be == 1
+			expect(timeout).to be == 10
 		end
 		
 		it "can run with timeout" do

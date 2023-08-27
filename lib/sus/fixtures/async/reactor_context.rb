@@ -55,7 +55,7 @@ module Sus::Fixtures::Async
 		end
 		
 		def timeout
-			1
+			10
 		end
 		
 		def reactor
