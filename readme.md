@@ -2,7 +2,7 @@
 
 Provides a convenient fixture for testing async components in a reactor.
 
-[![Development Status](https://github.com/socketry/sus-fixtures-async/workflows/Test/badge.svg)](https://github.com/socketry/sus-fixtures-async/actions?workflow=Test)
+[![Development Status](https://github.com/suspecting/sus-fixtures-async/workflows/Test/badge.svg)](https://github.com/suspecting/sus-fixtures-async/actions?workflow=Test)
 
 ## Installation
 
