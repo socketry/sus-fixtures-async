@@ -2,13 +2,13 @@
 
 Provides a convenient fixture for testing async components in a reactor.
 
-[![Development Status](https://github.com/suspecting/sus-fixtures-async/workflows/Test/badge.svg)](https://github.com/suspecting/sus-fixtures-async/actions?workflow=Test)
+[![Development Status](https://github.com/socketry/sus-fixtures-async/workflows/Test/badge.svg)](https://github.com/socketry/sus-fixtures-async/actions?workflow=Test)
 
 ## Usage
 
-Please see the [project documentation](https://suspecting.github.io/sus-fixtures-async/) for more details.
+Please see the [project documentation](https://socketry.github.io/sus-fixtures-async/) for more details.
 
-  - [Getting Started](https://suspecting.github.io/sus-fixtures-async/guides/getting-started/index) - This guide explains how to use the `sus-fixtures-async` gem to test async components in a reactor.
+  - [Getting Started](https://socketry.github.io/sus-fixtures-async/guides/getting-started/index) - This guide explains how to use the `sus-fixtures-async` gem to test async components in a reactor.
 
 ## Contributing
 
