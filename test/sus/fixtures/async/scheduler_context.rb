@@ -12,7 +12,7 @@ module NestedContext
 		expect(scheduler).to be_a(Async::Scheduler)
 	end
 	
-	def after
+	def after(error = nil)
 		expect(scheduler).to be_a(Async::Scheduler)
 		
 		super

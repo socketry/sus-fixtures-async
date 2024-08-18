@@ -12,7 +12,7 @@ module NestedContext
 		expect(reactor).to be_a(Async::Reactor)
 	end
 	
-	def after
+	def after(error = nil)
 		expect(reactor).to be_a(Async::Reactor)
 		
 		super
