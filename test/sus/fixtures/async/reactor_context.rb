@@ -24,6 +24,8 @@ module NestedContext
 			
 			block.call
 		end
+		
+		expect(scheduler).to be_nil
 	end
 end
 

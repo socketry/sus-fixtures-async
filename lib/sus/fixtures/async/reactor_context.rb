@@ -57,6 +57,11 @@ module Sus::Fixtures::Async
 			60
 		end
 		
+		# Identical to {reactor}.
+		def scheduler
+			Fiber.scheduler
+		end
+		
 		def reactor
 			Async::Task.current.reactor
 		end
@@ -66,6 +71,7 @@ module Sus::Fixtures::Async
 				task.annotate(self.class)
 				
 				run_with_timeout(self.timeout) do
+					# This ensures all before/after blocks are also run in the reactor context.
 					super(&block)
 				end
 			end
