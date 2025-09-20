@@ -18,7 +18,7 @@ module Sus::Fixtures::Async
 				timer_task = task.async(transient: true) do |task|
 					# Wait for the timeout, at any point this task might be cancelled if the user code completes:
 					task.annotate("Timer task timeout=#{timeout}.")
-					task.sleep(timeout)
+					sleep(timeout)
 					
 					# The timeout expired, so generate an error:
 					buffer = StringIO.new

@@ -45,7 +45,7 @@ describe Sus::Fixtures::Async::SchedulerContext do
 			expect do
 				run_with_timeout(0.001) do |task|
 					task.annotate("running example")
-					task.sleep(0.1)
+					sleep(0.1)
 				end
 			end.to raise_exception(Async::TimeoutError)
 		end
